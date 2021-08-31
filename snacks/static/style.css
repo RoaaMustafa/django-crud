@@ -1,0 +1,27 @@
+body{
+    /* background-color: blueviolet; */
+    min-height: 110vh;
+    background-color: #4ca1af;
+    background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+}
+.head{
+    display: block;
+    width: 400px;
+    height: 400px;
+    float:left;
+    margin-right: 100px;
+    background-image: url(https://media.istockphoto.com/photos/close-up-of-fast-food-snacks-and-drink-on-table-picture-id487077896?k=20&m=487077896&s=612x612&w=0&h=2zEtgcJelNP663Z5W08Yd9gqJ-25HTzRXL04rrOZh0c=);
+    -webkit-filter: brightness(0.8);
+    filter: brightness(0.4);
+    border-radius: 10px;
+}
+
+.head a{
+    background-color: darkslategrey;
+    position: relative;
+    top: 140px;
+    left: 90px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}

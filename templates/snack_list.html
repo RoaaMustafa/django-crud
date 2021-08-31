@@ -1,8 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="head">
+  <a href="{% url 'snack_create' %}">Add New Snack</a>
+</div>
 
-<a href="{% url 'snack_create' %}">Add New Snack</a>
 <ul>
   {% for snack in object_list %}
   <li>
