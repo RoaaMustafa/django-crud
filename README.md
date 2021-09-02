@@ -16,3 +16,4 @@ poetry shell
 python manage.py runserver
 ```
 
+## PR: https://github.com/RoaaMustafa/django-crud/pull/1
